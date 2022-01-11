@@ -1,6 +1,6 @@
 from typing import cast
 
-import nmap3
+import nmap
 
 import args
 
@@ -9,46 +9,6 @@ os detect : os
 version detect : vd
 
 '''
-# def os_detection(ip):
-#     nmap = nmap3.Nmap()
-#     os_results = nmap.nmap_os_detection(ip)
-#     return os_detection
-
-# def version_detection(ip):
-#     nmap = nmap3.Nmap()
-#     version_result = nmap.nmap_version_detection(ip)
-
-# def top_ports(ip):
-#     nmap = nmap3.Nmap()
-#     results = nmap.scan_top_ports(ip)
-
-# def dns_brute(ip):
-#     nmap = nmap3.Nmap()
-#     results = nmap.nmap_dns_brute_script(ip)
-
-# def fin_scan(ip):
-#     nmap = nmap3.NmapScanTechniques()
-#     result = nmap.nmap_fin_scan(ip)
-
-# def idle_scan(ip):
-#     nmap = nmap3.NmapScanTechniques()
-#     result = nmap.map_idle_scan(ip)
-
-# def ping_scan(ip):
-#     nmap = nmap3.NmapScanTechniques()
-#     result = nmap.nmap_ping_scan(ip)
-
-# def syn_scan(ip):
-#     nmap = nmap3.NmapScanTechniques()
-#     result = nmap.nmap_syn_scan(ip)
-
-# def tcp_scan(ip):
-#     nmap = nmap3.NmapScanTechniques()
-#     result = nmap.nmap_tcp_scan(ip)
-
-# def udp_scan(ip):
-#     nmap = nmap3.NmapScanTechniques()
-#     result = nmap.nmap_udp_scan(ip)
 
 def custom_arg(ip,arg):
    nmap = nmap3.Nmap()
