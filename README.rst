@@ -1,2 +1,2 @@
-Magmatic
-Simple scanner and pwner to be used in CTF.
+Magmatic [] :
+Simple nmap scanner interface in terminal.
